@@ -29,8 +29,9 @@ require('dotenv').config({ path: '../.env' }); // LOAD ENV VARIABLES
 const mongoose = require("mongoose");
 const initData = require("./data.js");
 const Listing = require("../models/listing.js");
+const User = require("../models/user.js");
 
-console.log(process.env.ATLASDB_URL)
+// console.log(process.env.ATLASDB_URL)
 const dbURL = process.env.ATLASDB_URL;
 
 async function main() {
@@ -56,4 +57,14 @@ const initDB = async () => {
   console.log("data initialized.");
 };
 
-main();
+// main();
+
+const createDummyUser = async () => {
+  const user = new User({
+    username: "Aditya_Pareek",
+    email: "adityapareek001@gmail.com",
+  });
+  await user.save();
+  console.log("Dummy user created:", user._id);
+};
+createDummyUser();
