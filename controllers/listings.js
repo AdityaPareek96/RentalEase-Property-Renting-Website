@@ -20,7 +20,7 @@ module.exports.showListing = async (req, res) => {
         res.redirect("/listings");
     }
     // console.log(listing);
-    res.render("listings/show.ejs", { listing, currUser: req.user});
+    res.render("listings/show.ejs", { listing, CurrUser: req.user});
 };
 
 module.exports.createListing = async (req, res, next) => {
