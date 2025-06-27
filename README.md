@@ -1,4 +1,4 @@
-# Wanderlust 🏡
+# RentalEase 🏡
 
 Wanderlust is a full-stack web application inspired by Airbnb that allows users to discover, and host unique stays around the world. Built with a modern web stack, it delivers a smooth, user-friendly experience for travelers and hosts alike.
 
@@ -30,11 +30,11 @@ Wanderlust is a full-stack web application inspired by Airbnb that allows users 
 **Backend:**
 - Node.js + Express
 - MongoDB 
-- JWT for Authentication
+- Express middlewares and form validations for Authentication
 
 **Dev Tools:**
 - Git & GitHub
-- Thunder CLient and Hoppscotch (for API testing)
+- Thunder Client and Hoppscotch (for API testing)
 - Cloudinary (for image upload)
 - Mapbox  (for map view)
 - Render (for deployment)
