@@ -1,6 +1,6 @@
 # RentalEase 🏡
 
-Wanderlust is a full-stack web application inspired by Airbnb that allows users to discover, and host unique stays around the world. Built with a modern web stack, it delivers a smooth, user-friendly experience for travelers and hosts alike.
+RentalEase is a full-stack web application inspired by Airbnb that allows users to discover, and host unique stays around the world. Built with a modern web stack, it delivers a smooth, user-friendly experience for travelers and hosts alike.
 
 ---
 
